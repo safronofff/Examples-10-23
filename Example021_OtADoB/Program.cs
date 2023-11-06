@@ -15,7 +15,7 @@ string NumberRec1(int a, int b)
 {
     if (a <= b)
     {
-        return $"{a}" + NumberRec1(a + 1,b);
+        return $"{a}" + NumberRec1(a + 1, b);
     }
     else
     {
@@ -38,12 +38,11 @@ string NumberFor2(int a, int b)
     return result;
 }
 
-
 string NumberRec2(int a, int b)
 {
     if (a <= b)
     {
-        return  NumberRec2(a + 1,b) + $"{a}";
+        return NumberRec2(a + 1, b) + $"{a}";
     }
     else
     {
